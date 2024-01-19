@@ -1,0 +1,12 @@
+uvicorn==0.25.0
+fastapi==0.109.0
+SQLAlchemy==2.0.25
+psycopg2-binary==2.9.9
+celery==5.3.6
+redis==5.0.1
+pyjwt==2.8.0
+passlib==1.7.4
+python-multipart==0.0.6
+alembic==1.13.1
+pytest==7.4.4
+httpx==0.26.0
