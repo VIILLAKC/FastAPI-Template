@@ -29,7 +29,7 @@ To run the alembic migrations (for the users table):
 docker-compose run --rm backend alembic upgrade head
 ```
 
-And navigate to http://localhost:9000
+And navigate to http://localhost:{{ cookiecutter.port }}
 
 _Note: If you see an Nginx error at first with a `502: Bad Gateway` page, you may have to wait for webpack to build the development server (the nginx container builds much more quickly)._
 
