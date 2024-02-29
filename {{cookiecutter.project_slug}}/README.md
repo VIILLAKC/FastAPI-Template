@@ -1,4 +1,4 @@
-# FastAPI Template
+# {{ cookiecutter.project_slug }}
 
 ## Features
 
@@ -34,7 +34,7 @@ And navigate to http://localhost:9000
 _Note: If you see an Nginx error at first with a `502: Bad Gateway` page, you may have to wait for webpack to build the development server (the nginx container builds much more quickly)._
 
 Auto-generated docs will be at
-http://localhost:9000/api/docs
+http://localhost:{{ cookiecutter.port }}/api/docs
 
 ### Rebuilding containers:
 
