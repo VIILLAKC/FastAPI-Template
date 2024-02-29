@@ -14,7 +14,7 @@ Second, install docker-compose if you don't already have it:
 
 Then, in the directory you want your project to live:
 ```
-gh:VIILLAKC/FastAPI-_Template
+gh:VIILLAKC/FastAPI-Template
 ```
 
 You will need to put in a few variables and it will create a project directory (called whatever you set for project_slug).
